@@ -2,7 +2,7 @@
 name: Feature request / user story
 about: Suggest an idea from the perspective of a user
 title: ''
-labels: enhancement
+labels: ["dev", "story"]
 assignees: ''
 
 ---
@@ -16,6 +16,9 @@ assignees: ''
 **Acceptance Criteria**
 - [ ] Given (Context), When (action carried out), Then (expected outcome)
 - [ ] Given (Context), When (action carried out), Then (expected outcome)
+
+**Designs**
+Link any designs here
 
 **Definition of Done**
 - [ ] Ready to Demo in Sprint Review
