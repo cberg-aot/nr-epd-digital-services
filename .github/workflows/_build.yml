@@ -28,7 +28,7 @@ on:
         type: string
         required: false
         default: "('.')"
-        description: Optional, specify paths to conditionally trigger a build, e.g. ('./backend/', './frontend/)
+        description: Optional, specify paths to conditionally trigger a build, e.g. ('./backend/', './frontend/')
     secrets:
       gh_token:
         required: true
