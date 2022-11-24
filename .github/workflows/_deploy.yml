@@ -35,7 +35,7 @@ on:
         description: OpenShift namespace (e.g. abc123-dev)
       oc_server:
         required: true
-        description: OpenShift server (e.g. https://api.silver.devops.gov.bc.ca:6443)
+        description: OpenShift server (e.g. https://api.bronze.aot-technologies.com:6443)
       oc_token:
         required: true
         description: OpenShift access token

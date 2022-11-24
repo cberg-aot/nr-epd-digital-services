@@ -160,7 +160,7 @@ Default token.  Replaced every workflow run, available to all workflows.
 
 OpenShift server address.
 * Variable: `{{ secrets.OC_SERVER }}`
-* Value: `https://api.gold.devops.gov.bc.ca:6443` or `https://api.silver.devops.gov.bc.ca:6443`
+* Value: `https://api.gold.devops.gov.bc.ca:6443` or `https://api.bronze.aot-technologies.com:6443`
 
 **OC_NAMESPACE**
 
@@ -177,7 +177,7 @@ OpenShift token, different for every project/namespace.  This guide assumes your
 
 Locate an OpenShift pipeline token:
 
-1. Login to your OpenShift cluster, e.g.: [Gold](https://console.apps.silver.devops.gov.bc.ca/) or [Silver](https://console.apps.silver.devops.gov.bc.ca/)
+1. Login to your OpenShift cluster, e.g.: [Gold](https://console.apps.bronze.aot-technologies.com/) or [Silver](https://console.apps.bronze.aot-technologies.com/)
 2. Select your DEV namespace
 3. Click Workloads > Secrets (under Workloads for Administrator view)
 4. Select `pipeline-token-...` or a similarly privileged token
